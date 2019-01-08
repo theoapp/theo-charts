@@ -12,6 +12,10 @@ image:
 nameOverride: ""
 fullnameOverride: ""
 
+redis:
+  cluster:
+    enabled: false
+
 service:
   type: ClusterIP
   port: 80
